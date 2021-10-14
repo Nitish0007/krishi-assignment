@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  background-color: #f8e3be;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbarLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.5rem;
+}
+
+.searchBar {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.searchSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 2rem;
+}
+
+.citynameBar {
+  width: 50%;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar_auth_true {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+
+.navbar_auth_true:hover {
+  background-color: #f0efef;
+}
+
+.navbar_auth_true:hover .navbar_dropdown {
+  display: block;
+}
+
+.navbar_dropdown {
+  display: none;
+  position: absolute;
+  background-color: white;
+  -webkit-box-shadow: 0 0 2px 1px #f0efef;
+          box-shadow: 0 0 2px 1px #f0efef;
+  padding: 0.5rem;
+  right: 1rem;
+  top: 3.8rem;
+  list-style: none;
+  border-radius: 0.2rem;
+}
+
+.navbar_dropdown li {
+  border-bottom: 1px solid #f0efef;
+  padding: 0.5rem;
+  padding-bottom: 0.2rem;
+}
+/*# sourceMappingURL=Navbar.css.map */

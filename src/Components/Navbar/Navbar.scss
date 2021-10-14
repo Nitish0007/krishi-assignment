@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+$lightprimary: #fdf7ed;
+$darksecondary: #f1a41e;
+$greenColor: #30a08d;
+$lightsecondary: #f8e3be;
+$lightgrey: rgb(240, 239, 239);
+
+.navbar {
+  display: flex;
+  padding: 1rem;
+  background-color: $lightsecondary;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbarLeft {
+  display: flex;
+}
+.logo {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.5rem;
+}
+.searchBar {
+  background-color: white;
+  border-radius: 5px;
+}
+.searchSection {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+.citynameBar {
+  width: 50%;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.navbar_auth_true {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  &:hover {
+    .navbar_dropdown {
+      display: block;
+    }
+    background-color: $lightgrey;
+  }
+}
+.navbar_dropdown {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 0 2px 1px $lightgrey;
+  padding: 0.5rem;
+  right: 1rem;
+  top: 3.8rem;
+  list-style: none;
+  border-radius: 0.2rem;
+  li {
+    border-bottom: 1px solid $lightgrey;
+    padding: 0.5rem;
+    padding-bottom: 0.2rem;
+  }
+}

@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px 0 #ccc;
+  width: fit-content;
+  gap: 20px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.info > div {
+  display: flex;
+  gap: 10px;
+}
+.info > div > label {
+  font-weight: bold;
+}
